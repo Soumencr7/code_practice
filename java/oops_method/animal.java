@@ -14,10 +14,20 @@ public class animal {
         animal aa = new animal();
         aa.run();
         aa.eat();
+
+        birds gg = new birds();
+        gg.fly();
     }
 
     public void run() {
         System.out.println("i am running");
+    }
+
+}
+
+class birds {
+    void fly() {
+        System.out.println("flying");
     }
 
 }
