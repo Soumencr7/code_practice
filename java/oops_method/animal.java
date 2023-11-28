@@ -10,6 +10,10 @@ public class animal {
         animal cat = new animal();
         cat.eat();
         cat.run();
+
+        animal aa = new animal();
+        aa.run();
+        aa.eat();
     }
 
     public void run() {
